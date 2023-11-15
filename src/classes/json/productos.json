@@ -43,5 +43,23 @@
 		"code": "cod7",
 		"stock": 30,
 		"id": "102c8336-01ff-4328-a86f-b132d3b2c772"
+	},
+	{
+		"title": "Tomate",
+		"description": "Tomate rojo",
+		"price": "55",
+		"thumbnail": "./tomate",
+		"code": "tom1",
+		"stock": "55",
+		"id": "df657a47-1f08-491a-97b7-bbc0579427ad"
+	},
+	{
+		"title": "lechuga",
+		"description": "lechuga verde",
+		"price": "88",
+		"thumbnail": "lechuga.jpg",
+		"code": "lechu1",
+		"stock": "5",
+		"id": "678a8796-3751-4256-9681-ce2790006dd1"
 	}
 ]

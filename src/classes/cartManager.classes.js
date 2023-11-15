@@ -1,11 +1,13 @@
 import fs from 'fs'
 import {v4 as uuidV4} from 'uuid'
+
 import ProductManager from './productManager.classes.js'
 
 const path = './src/classes/json/carritos.json'
 const productManager = new ProductManager
 
 export default class CartManager{
+    
     getCarts = async () => {
         try{
             const data = await fs.promises.readFile(path, "utf-8");

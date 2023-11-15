@@ -49,8 +49,8 @@ export default class ProductManager{
         try{
             const products = await this.getProducts()
 
-            const {title, description, price, thumbnail, code, stock} = newProduct 
-
+            /*const {title, description, price, thumbnail, code, stock} = newProduct 
+            
             if(title === undefined||description === undefined|| price === undefined|| thumbnail === undefined|| code === undefined|| stock === undefined){
                 return "Debe completar todos los campos"
             }
@@ -59,7 +59,7 @@ export default class ProductManager{
     
             if (index != -1){
                 return "Codigo repetido"
-            }
+            }*/
 
             newProduct.id = uuidV4()
     
